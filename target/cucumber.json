@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 290798724,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on NetBanking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_NetBanking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2774662,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User login into application with \"Sandy\" and password \"dada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sandy",
+                  "offset": 34
+                },
+                {
+                  "val": "dada",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefination.user_login_into_application_with_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 345778,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
