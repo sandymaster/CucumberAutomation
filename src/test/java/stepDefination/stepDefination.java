@@ -22,7 +22,11 @@ public class stepDefination {
 	@Then("^Home page is populated$")
 	public void home_page_is_populated() throws Throwable {
 		System.out.println("Home page...");
-
+		
+		// CHANGES DONE BY CUCUMBERAUTO
+		
+		System.out.println("Changes made 1");
+		
 	}
 
 }
