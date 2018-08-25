@@ -27,6 +27,9 @@ public class stepDefination {
 		
 		System.out.println("Changes made 1");
 		
+		// cucumber auto changes
+		System.out.println("Cucumber here...");
+		
 	}
 
 }
