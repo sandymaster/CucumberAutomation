@@ -30,6 +30,14 @@ public class stepDefination {
 		
 		System.out.println("Change 2...");
 		
+		// CHANGES DONE BY Sandy
+		
+				System.out.println("Changes made 3");
+		// changes by Cucumber Auto
+				System.out.println("Changes made 4");
+				
+				
+		
 	}
 
 }
